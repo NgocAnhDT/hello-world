@@ -1,0 +1,71 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding:0;
+        overflow-x: hidden;
+    }
+
+    .videoMain .text-content {
+        padding-top: 120px;
+    }
+
+    .text-heading{
+        font-size: 40px;
+    }
+    .text-description{
+        font-size: 17px;
+    }
+}
+
+/* Moblie */
+@media (max-width: 740px) {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+    
+    .videoMain .text-content {
+        padding-top: 120px;
+    }
+
+    .text-heading {
+        font-size: 28px;
+    }
+    .text-description, .text-about-banner .text-sub-2{
+        font-size: 13px;
+    }
+
+    .text-about-banner .text-sub-1 {
+        font-size: 23px;
+        line-height: 1;
+    }
+    .column-layout {
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .aboutVideonly, .makeVideo {
+        padding-top: 60px;
+        padding-bottom: 250px;
+    }
+
+    .column-item{
+        padding: 20px;
+    }
+
+    .체험-sub{
+        justify-content: space-around;
+    }
+}

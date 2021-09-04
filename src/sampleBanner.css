@@ -1,0 +1,33 @@
+.sample-header {
+    height: 30px;
+    position: relative;
+}
+
+.sample-header .sample-info{
+    font-family: "NotoSansCJKkr";
+    float: left;
+    font-weight: bold;
+    padding-left: 10%;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+}
+
+.sample-header .more {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    float: right;
+    padding-right: 5%;
+}
+  
+.slider {
+    padding: 10px 0;
+    margin-bottom: 60px;
+}
+
+.img-banner {
+    height: 200px;
+    width: 95%;
+}
+

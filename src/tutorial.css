@@ -1,0 +1,52 @@
+.tutorial-header {
+
+}
+  
+.tutorial-header > p {
+    color: red;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: bold;
+}
+  
+.tutorial-sub-header {
+    position: absolute;
+    font-family: "NotoSansCJKkr";
+    float: left;
+    font-weight: bold;
+    color:rgb(34, 34, 34);
+    font-size: 32px;
+}
+  
+.about-sub {
+    font-size: 20px;
+    font-family: "NotoSansCJKkr";
+    color: rgb(34, 34, 34);
+    padding: 40px 0;
+    line-height: 2.6px;
+}
+
+.tutorial-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-tutorial {
+    height: 300px;
+    width: 280px; 
+}
+
+@media (max-width: 740px) {
+    .tutorial-sub-header {
+        font-size: 24px;
+    }
+    .about-sub {
+        font-size: 15px;
+    }
+
+    .tutorial-body {
+        justify-content: space-around;
+    }
+}
